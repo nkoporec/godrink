@@ -122,7 +122,7 @@ func checkThirsty() {
 	interval, err = strconv.ParseInt(interval_string, 10, 64)
 
 	if timestamp_diff > interval {
-		fmt.Println("💧You're thirsty!")
+		fmt.Println("💧I'm thirsty!💧")
 		return
 	}
 

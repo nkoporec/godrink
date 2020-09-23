@@ -1,5 +1,5 @@
 # godrink
-A simple drink reminder to the terminal.
+A simple drink reminder for the terminal.
 
 # Requirements
  - Go installed

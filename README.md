@@ -12,6 +12,11 @@ A simple drink reminder for the terminal.
  - Reset the interval.
 
 # Installation
+  ## Go package
+    1. `go get https://github.com/nkoporec/godrink`
+    2. Run setup command, `godrink setup INTERVAL_NUMBER`
+    3. In your zshrc/theme/bashrc locate PROMPT and add godrink function.
+    4. For faster interval reset, add an alias for godrink not_thirsty command, eg: alias godrink not_thirsty nt
   ## Source
     1. Clone this repository
     2. Run `go install`
